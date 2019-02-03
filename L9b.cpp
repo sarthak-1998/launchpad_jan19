@@ -54,12 +54,13 @@ public:
 	void operator!(){
 		cout<<real<<img*(-1)<<"i";
 	}
-	// void operator[](string s){
-	// 	if(strcmp(s,"real"))
-	// 	cout<<real<<endl;
-	// 	else 
-	// 		cout<<img<<"i";
-	// }
+	void operator[](char c){
+		if(c=='r')
+		cout<<real<<endl;
+		else 
+			cout<<img<<"i";
+		return;
+	}
 	// void operator()(string n){
 	// 	cout<<name<<" is Lit()!"<<n<<endl;
 	// }
@@ -79,15 +80,12 @@ ostream& operator<<(ostream&a, complex &b){
 istream& operator>>(istream&a, complex &b){
 	
 	int r,i;
-	cin>>r>>i;
+	cin>>r;
+	cin>>i;
 
 	b.setValue(r,i);
 	return a;
 }
-	
-
-
-
 
 int main()
 {
@@ -96,9 +94,9 @@ int main()
 	c1+c2;
 	c1.print();
 	cout<<c2;
-	complex c3;
-	cin>>c3;
-	
+	//complex c3;
+	//cin>>c3;
+	// cout<<c3;
 
 	return 0;
 }
