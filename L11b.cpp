@@ -14,6 +14,37 @@ public:
 	}
 };
 
+node* alternatingMerge(node* l){
+
+	if (a==NULL){
+		return l;
+	}
+	node* t;
+	node* c= l;
+	t= l-> next;
+
+	b->next = temp;
+
+	node* mid = midPoint(l);
+	node* a=l;
+	node* temp;
+	while (temp-> next== NULL){
+
+		temp= temp-> next;
+	}
+	node* b= temp;
+	mid-> next = NULL;
+	
+
+	l= merge(a,b);
+	return l;
+
+
+
+
+
+}
+
 
 node* merge(node *a,node *b){
 	//base case
