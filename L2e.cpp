@@ -8,9 +8,7 @@ int cntBits(int n){
 	while(n){
 		cnt+= n&1;
 		n = n>>1;
-	}
-	return cnt;
-
+	}	return cnt;
 }
 
 int main()

@@ -20,14 +20,8 @@ void PrPrime(int n)
 		if (fl==0){
 		cout<<i;
 		cout<<endl;
-
-
 		}
-
-
 	}
-
-
 	
 	//cout<<i;
 	//return 0;

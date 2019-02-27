@@ -22,7 +22,6 @@ int main()
 	int n;
 	cin>>n;
 	conDtB(n);
-
 	
 	return 0;
 }

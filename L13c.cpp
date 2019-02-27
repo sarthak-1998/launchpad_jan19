@@ -90,16 +90,12 @@ void printAtLevelK(node* root , int key){
 		return ;
 	}
 
-	
-
 }
 
-void mirrorTree(node* root){
+// void mirrorTree(node* root){
 
 
-}
-
-
+// }
 
 int main(){
 

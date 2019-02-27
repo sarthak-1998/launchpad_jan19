@@ -21,9 +21,7 @@ bool isParanthesis(string a){
 
 }
 
-
 bool isRedundant(char *in){
-	
 
 	stack<char> test;
 	for (int i=0 ; a[i]!='\n';i++){
@@ -37,9 +35,7 @@ bool isRedundant(char *in){
 	}
 	else 
 		return true;
-
 }
-
 
 
 int main()

@@ -24,11 +24,9 @@ void findUnique(int a[],int n){
 	for (int i=0;i<n;i++){
 		if ((a[i]&m)>0){
 			n1= n1^a[i];
-
 		}
 	}
 	n2= ans ^ n1;
-
 }
 
 int main()
