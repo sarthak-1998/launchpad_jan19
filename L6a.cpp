@@ -10,23 +10,17 @@ int nThFib(int n){
 	else {
 		return nThFib(n)+ nThFib(n-1);
 	}
-
 }
-
 void  PrintNo(int n){
 
 	if(n%2==1){
 		cout<<n<<endl;
-
 	}
-
 	PrintNo(n-1);
 
 	if (n%2==0){
 		cout<<n<<endl;
 	}
-
-
 }
 
 int printPower (int a,int n){

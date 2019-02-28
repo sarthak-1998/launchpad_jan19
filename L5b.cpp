@@ -37,16 +37,13 @@ void stairCaseSearch(int a[][4],int n, int key){
 		else if (a[i][j]<key){
 
 			i++;
-
 		}
 
 		else cout<<"not found";
 		/* code */
 	} while ((a[i][j]!=key));
 
-
 }
-
 int main()
 {
 
